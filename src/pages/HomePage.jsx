@@ -1,6 +1,8 @@
+import { menu } from "../data/data.js";
 function HomePage() {
   return (
     <div>
+      {/* ini adalah hero */}
       <div className="grid grid-cols-2 gap-2 mx-10 mt-20 items-center">
         <div className="px-20">
           <h1 className="text-4xl font-bold">
@@ -19,6 +21,30 @@ function HomePage() {
             className="rounded-lg"
           />
         </div>
+      </div>
+      {/* ini adalah hero */}
+      {/* ini menu produk */}
+      <h1 className="text-3xl font-bold text-center mt-20 mb-10">
+        Produk Terlaris
+      </h1>
+
+      <div className="grid grid-cols-3 gap-2 mx-20">
+        {menu.map((menu) => {
+          return (
+            <div key={menu.id} className="mx-2">
+              <img
+                src={menu.gambar}
+                alt=""
+                className="w-full h-64 text-center"
+              />
+              <h1 className="text-xl font-bold mt-5">{menu.nama}</h1>
+              <p className="mt-3">{menu.deskripsi}</p>
+              <p className="bg-green-400 hover:bg-green-500 mt-10">
+                {menu.harga}
+              </p>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

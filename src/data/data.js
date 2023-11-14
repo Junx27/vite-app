@@ -24,106 +24,28 @@ export const menu = [
   {
     id: 1,
     nama: "Ayama Bakar",
+    gambar:
+      "https://awsimages.detik.net.id/community/media/visual/2022/06/09/resep-ayam-bakar-bumbu-rujak.jpeg?w=650&q=80",
+    deskripsi:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Aliquid animi a veniam asperiores repudiandae, necessitatibusdolorem autem impedit commodi quia illum in eligendi sapien",
     harga: "Rp. 20.000",
   },
   {
     id: 1,
     nama: "Sate",
+    gambar:
+      "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/07/14053934/Mudah-Dibuat-di-Rumah-Ini-Resep-Sate-Ayam-Bumbu-Kacang-yang-Lezat-.jpg",
+    deskripsi:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Aliquid animi a veniam asperiores repudiandae, necessitatibusdolorem autem impedit commodi quia illum in eligendi sapien",
     harga: "Rp. 20.000",
   },
   {
     id: 1,
     nama: "Bakso",
-    harga: "Rp. 20.000",
-  },
-  {
-    id: 1,
-    nama: "Ayama Bakar",
-    harga: "Rp. 20.000",
-  },
-  {
-    id: 1,
-    nama: "Sate",
-    harga: "Rp. 20.000",
-  },
-  {
-    id: 1,
-    nama: "Bakso",
-    harga: "Rp. 20.000",
-  },
-  {
-    id: 1,
-    nama: "Ayama Bakar",
-    harga: "Rp. 20.000",
-  },
-  {
-    id: 1,
-    nama: "Sate",
-    harga: "Rp. 20.000",
-  },
-  {
-    id: 1,
-    nama: "Bakso",
-    harga: "Rp. 20.000",
-  },
-  {
-    id: 1,
-    nama: "Ayama Bakar",
-    harga: "Rp. 20.000",
-  },
-  {
-    id: 1,
-    nama: "Sate",
-    harga: "Rp. 20.000",
-  },
-  {
-    id: 1,
-    nama: "Bakso",
-    harga: "Rp. 20.000",
-  },
-  {
-    id: 1,
-    nama: "Ayama Bakar",
-    harga: "Rp. 20.000",
-  },
-  {
-    id: 1,
-    nama: "Sate",
-    harga: "Rp. 20.000",
-  },
-  {
-    id: 1,
-    nama: "Bakso",
-    harga: "Rp. 20.000",
-  },
-  {
-    id: 1,
-    nama: "Ayama Bakar",
-    harga: "Rp. 20.000",
-  },
-  {
-    id: 1,
-    nama: "Sate",
-    harga: "Rp. 20.000",
-  },
-  {
-    id: 1,
-    nama: "Bakso",
-    harga: "Rp. 20.000",
-  },
-  {
-    id: 1,
-    nama: "Ayama Bakar",
-    harga: "Rp. 20.000",
-  },
-  {
-    id: 1,
-    nama: "Sate",
-    harga: "Rp. 20.000",
-  },
-  {
-    id: 1,
-    nama: "Bakso",
+    gambar:
+      "https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2023/07/25041221/ini-resep-kuah-bakso-sap-yang-mudah-dibuat-di-rumah.jpg",
+    deskripsi:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Aliquid animi a veniam asperiores repudiandae, necessitatibusdolorem autem impedit commodi quia illum in eligendi sapien",
     harga: "Rp. 20.000",
   },
 ];
